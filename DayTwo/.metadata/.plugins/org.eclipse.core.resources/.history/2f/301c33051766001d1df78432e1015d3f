@@ -1,0 +1,18 @@
+package ReCapDemo_Classes;
+
+public class DortIslem {
+
+	public void topla(int sayi1, int sayi2) {
+		return sayi1+sayi2;
+	}
+
+	public void cýkar(int sayi1, int sayi2) {
+	}
+
+	public void bol(int sayi1, int sayi2) {
+	}
+
+	public void carp(int sayi1, int sayi2) {
+	}
+
+}

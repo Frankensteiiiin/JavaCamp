@@ -1,0 +1,11 @@
+package Inheritance;
+
+public class CustomerManager {
+
+	public void list() {
+	
+		System.out.println("Listelendi.");
+	}
+	
+
+}

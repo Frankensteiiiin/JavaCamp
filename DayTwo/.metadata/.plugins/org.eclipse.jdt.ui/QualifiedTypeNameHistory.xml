@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.MessageDigest"/>
+    <fullyQualifiedTypeName name="Methods2.Main"/>
+    <fullyQualifiedTypeName name="Classes.CustomerManager"/>
+    <fullyQualifiedTypeName name="ReCapDemo_Classes.DortIslem"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="classesWithAttributes.productManager"/>
+    <fullyQualifiedTypeName name="classesWithAttributes.Product"/>
+    <fullyQualifiedTypeName name="classesWithAttributes.ProductManager"/>
+    <fullyQualifiedTypeName name="classesWithAttributesEncapsulation.Main"/>
+    <fullyQualifiedTypeName name="classesWithAttributesEncapsulation.Product"/>
+    <fullyQualifiedTypeName name="methodOverloading.DortIslem"/>
+    <fullyQualifiedTypeName name="Inheritance.Person"/>
+    <fullyQualifiedTypeName name="Inheritance.Customer"/>
+    <fullyQualifiedTypeName name="Inheritance.Employee"/>
+    <fullyQualifiedTypeName name="Inheritance.PersonManager"/>
+    <fullyQualifiedTypeName name="Inheritance.EmployeeManager"/>
+    <fullyQualifiedTypeName name="Inheritance.CustomerManager"/>
+    <fullyQualifiedTypeName name="InheritanceDemo.OgretmenKrediManager"/>
+    <fullyQualifiedTypeName name="InheritanceDemo.TarimKrediManager"/>
+    <fullyQualifiedTypeName name="InheritanceDemo.BaseKrediManager"/>
+    <fullyQualifiedTypeName name="InheritanceDemo.KrediUI"/>
+    <fullyQualifiedTypeName name="InheritanceDemo.AskeriKrediManager"/>
+</qualifiedTypeNameHistroy>

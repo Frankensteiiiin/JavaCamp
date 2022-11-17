@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+C:\Users\singl\OneDrive\Masaüstü\JavaProjects\JavaCampHomeWork\DayTwo\.metadata\.plugins\org.eclipse.jdt.core
+3048885576.index
+1865797976.index
+1670916203.index
+725658418.index
+1117349647.index
+932684231.index
+3235290869.index
+2908218732.index
+2357648741.index
+1888937284.index
+4122157038.index

@@ -1,0 +1,11 @@
+package InheritanceDemo;
+
+public class KrediUI {
+
+	public void krediHesapla(TarimKrediManager tarimKrediManager) {
+
+		tarimKrediManager.hesapla();
+
+	}
+
+}

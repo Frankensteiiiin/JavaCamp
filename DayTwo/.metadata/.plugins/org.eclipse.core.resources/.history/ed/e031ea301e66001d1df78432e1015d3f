@@ -1,0 +1,29 @@
+package Inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Customer customer = new Customer();
+		Employee employee = new Employee();
+		
+		customer.firstName="murat";
+		customer.lastName="tpcu";
+		customer.id=1;
+		customer.age=44;
+		customer.email="muratctopcu@gmail.com";
+		
+		
+		
+
+		CustomerManager customerManager = new CustomerManager();
+		EmployeeManager employeeManager = new EmployeeManager();
+		
+		customerManager.add();
+		customerManager.list();
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		CustomerManager customerManager= new CustomerManager();
+		CustomerManager customerManager2 = new CustomerManager();
+		customerManager.add();
+		customerManager.delete();
+		customerManager.update();
+		
+	}
+
+}
