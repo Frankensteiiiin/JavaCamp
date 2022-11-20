@@ -1,0 +1,19 @@
+package oppKodlamaIo.entities;
+
+public class Instructor {
+
+	private int id;
+	private String instructorFirstName;
+	private String instructorLastName;
+
+	public Instructor() {
+	}
+
+	public Instructor(int id, String instructorFirstName, String instructorLastName) {
+		super();
+		this.id = id;
+		this.instructorFirstName = instructorFirstName;
+		this.instructorLastName = instructorLastName;
+	}
+
+}

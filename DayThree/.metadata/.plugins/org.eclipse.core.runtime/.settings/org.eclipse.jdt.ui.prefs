@@ -1,0 +1,11 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="oppKodlamaIo.entities.Category"><rhs name\="oppKodlamaIo.entities.Category"/></lhs><lhs name\="oppKodlamaIo.business.CategoryManager"><rhs name\="oppKodlamaIo.business.CategoryManager"/></lhs><lhs name\="oppKodlamaIo.dataAccess.CategoryDao"><rhs name\="oppKodlamaIo.dataAccess.JdbcCategoryDao"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="oppKodlamaIo.entities.Instructor"><rhs name\="oppKodlamaIo.entities.Instructor"/></lhs><lhs name\="oppKodlamaIo.business.InstructorManager"><rhs name\="oppKodlamaIo.business.InstructorManager"/></lhs><lhs name\="oppKodlamaIo.dataAccess.InstructorDao"><rhs name\="oppKodlamaIo.dataAccess.JdbcInstructorDao"/></lhs><lhs name\="oppKodlamaIo.entities.Course"><rhs name\="oppKodlamaIo.entities.Course"/></lhs><lhs name\="oppKodlamaIo.business.CourseManager"><rhs name\="oppKodlamaIo.business.CourseManager"/></lhs><lhs name\="oppKodlamaIo.dataAccess.CourseDao"><rhs name\="oppKodlamaIo.dataAccess.HibernateCourseDao"/><rhs name\="oppKodlamaIo.dataAccess.JdbcCourseDao"/></lhs><lhs name\="oppKodlamaIo.core.loging.Logger"><rhs name\="oppKodlamaIo.core.loging.DatabaseLogger"/><rhs name\="oppKodlamaIo.core.loging.FileLogger"/><rhs name\="oppKodlamaIo.core.loging.MailLogger"/></lhs></history>
+content_assist_number_of_computers=20
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

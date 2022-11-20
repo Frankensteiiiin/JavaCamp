@@ -1,0 +1,34 @@
+package oppKodlamaIo.business;
+
+import java.util.List;
+
+import oppKodlamaIo.dataAccess.CourseDao;
+import oppKodlamaIo.dataAccess.InstructorDao;
+import oppKodlamaIo.entities.Course;
+
+public class CourseManager {
+	private CourseDao courseDao;
+	private List<Course> courses;
+	private InstructorDao instructorDao;
+
+	public CourseManager(CourseDao courseDao) {
+		this.courseDao = courseDao;
+	}
+
+	public void add(Course course) throws Exception {
+
+		for (Course cours : courses) {
+			if (cours.getCourseName().equals(course)) {
+				throw new Exception("Ayný isimli birden fazla kurs ismi olmaz.");
+			}
+		}
+		if (course.getCoursePrice() < 0) {
+			throw new Exception("Kursun fiyati 0'dan küçük olamaz.");
+		}
+		
+		course.getInstructorId();
+		
+		courseDao.add(course);
+
+	}
+}

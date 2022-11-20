@@ -1,0 +1,31 @@
+package oppKodlamaIo.business;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import oppKodlamaIo.dataAccess.CategoryDao;
+import oppKodlamaIo.entities.Category;
+
+public class CategoryManager {
+
+	private CategoryDao categoryDao;
+	List<Category> categories;
+
+	public CategoryManager(CategoryDao categoryDao) {
+		this.categoryDao = categoryDao;
+		this.categories = new ArrayList<Category>();
+	}
+
+	public void add(Category category) throws Exception {
+		categories.add(category);
+		for (Category category1 : categories) {
+			if (category1.getName().equals(category.getName())) {
+				throw new Exception("Ayný isimli birden fazla kategori olamaz.");
+			}
+		}
+		
+		categoryDao.add(category);
+
+	}
+
+}

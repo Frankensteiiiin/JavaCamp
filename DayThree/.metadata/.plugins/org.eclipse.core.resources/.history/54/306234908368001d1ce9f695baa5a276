@@ -1,0 +1,12 @@
+package oppKodlamaIo.business;
+
+import oppKodlamaIo.dataAccess.InstructorDao;
+
+public class InstructorManager {
+	private InstructorDao instructorDao;
+
+	public InstructorManager(InstructorDao instructorDao) {
+		this.instructorDao = instructorDao;
+	}
+
+}

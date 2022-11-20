@@ -1,0 +1,8 @@
+package oppKodlamaIo.entities;
+
+public class Instructor {
+	
+	private int id;
+	private String instructorFirstName;
+	private String instructorLastName;
+}

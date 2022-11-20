@@ -1,0 +1,6 @@
+package oppKodlamaIo.entities;
+
+public interface ICategory {
+	public String name;
+	
+}

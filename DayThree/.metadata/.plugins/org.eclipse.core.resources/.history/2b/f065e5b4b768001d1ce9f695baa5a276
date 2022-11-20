@@ -1,0 +1,5 @@
+package oppKodlamaIo.core.loging;
+
+public class FileLogger {
+
+}

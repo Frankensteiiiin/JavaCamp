@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="oppKodlamaIo.business.CategoryManager"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.dataAccess.JdbcCategoryDao"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.entities.ICategory"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.Main"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.entities.Category"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.entities.Instructor"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.business.InstructorManager"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.dataAccess.JdbcInstructorDao"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.entities.Course"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.business.CourseManager"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.dataAccess.InstructorDao"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.dataAccess.CategoryDao"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.dataAccess.CourseDao"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.dataAccess.HibernateCourseDao"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.dataAccess.JdbcCourseDao"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.core.loging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.core.loging.FileLogger"/>
+    <fullyQualifiedTypeName name="javax.xml.catalog.CatalogException"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.core.loging.MailLogger"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oppKodlamaIo.core.loging.Logger"/>
+</qualifiedTypeNameHistroy>

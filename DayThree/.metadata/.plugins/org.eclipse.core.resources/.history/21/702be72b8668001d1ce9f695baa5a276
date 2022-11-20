@@ -1,0 +1,18 @@
+package oppKodlamaIo.business;
+
+import java.util.List;
+
+import oppKodlamaIo.dataAccess.CourseDao;
+import oppKodlamaIo.entities.Course;
+
+public class CourseManager {
+	private CourseDao courseDao;
+	private List<Course> courses;
+
+	public CourseManager(CourseDao courseDao) {
+		this.courseDao = courseDao;
+	}
+
+	public void add() {
+	}
+}

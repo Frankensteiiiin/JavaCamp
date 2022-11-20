@@ -1,0 +1,27 @@
+package oppKodlamaIo.business;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import oppKodlamaIo.dataAccess.CategoryDao;
+import oppKodlamaIo.entities.Category;
+
+public class CategoryManager {
+
+	private CategoryDao categoryDao;
+	List<Category> categories = new ArrayList<Category>();
+
+	public CategoryManager(CategoryDao categoryDao) {
+		this.categoryDao = categoryDao;
+	}
+
+	public void add(Category category) throws Exception {
+		for (Category category1 : categories) {
+			System.out.println("Helle : " + category.getName());
+		}
+
+		categoryDao.add(category);
+
+	}
+
+}

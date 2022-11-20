@@ -1,0 +1,11 @@
+package oppKodlamaIo.entities;
+
+public class Course {
+	
+	private int id;
+	private int instructorId;
+	private String courseName;
+	
+	
+
+}

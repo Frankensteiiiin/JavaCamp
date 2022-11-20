@@ -1,0 +1,6 @@
+package oppKodlamaIo.dataAccess;
+
+public interface InstructorDao {
+	void add();
+
+}

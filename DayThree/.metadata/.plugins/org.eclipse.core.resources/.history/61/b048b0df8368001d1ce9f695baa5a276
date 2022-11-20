@@ -1,0 +1,11 @@
+package oppKodlamaIo.dataAccess;
+
+public class JdbcInstructorDao implements InstructorDao{
+
+	@Override
+	public void add() {
+
+		System.out.println("JDBC ile veritabanýna eklendi : ");
+	}
+
+}
