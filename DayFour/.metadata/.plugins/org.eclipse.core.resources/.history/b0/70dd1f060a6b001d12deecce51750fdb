@@ -1,0 +1,25 @@
+package kodlama.io.Devs;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import kodlama.io.Devs.business.concretes.ProgrammingLanguageManager;
+import kodlama.io.Devs.dataAccess.concretes.InMemoryProgrammingLanguageRepository;
+import kodlama.io.Devs.entities.concretes.ProgrammingLanguage;
+
+@SpringBootApplication
+public class DevsApplication {
+
+	public static void main(String[] args) throws Exception {
+		//SpringApplication.run(DevsApplication.class, args);
+		
+		ProgrammingLanguageManager manager = new ProgrammingLanguageManager(new InMemoryProgrammingLanguageRepository());
+		manager.add(new ProgrammingLanguage(5,"Html"));
+		
+		manager.update(new ProgrammingLanguage(5,"lips"));
+		
+		
+		
+	}
+
+}

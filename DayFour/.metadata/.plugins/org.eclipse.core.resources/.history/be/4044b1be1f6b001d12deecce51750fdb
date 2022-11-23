@@ -1,0 +1,13 @@
+package kodlama.io.Devs.webApi.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import kodlama.io.Devs.business.abstracts.ProgrammingLanguageService;
+
+@RestController
+@RequestMapping("/api/languages")
+public class ProgrammingLanguagesController {
+	private ProgrammingLanguageService languageService;
+	
+}

@@ -1,0 +1,5 @@
+package languages;
+
+public interface ProgrammingLanguageSerive {
+
+}
